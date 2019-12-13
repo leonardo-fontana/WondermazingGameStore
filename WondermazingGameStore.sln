@@ -33,8 +33,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WondermazingGameStore.UserAccount.Web", "WondermazingGameStore.UserAccount.Web\WondermazingGameStore.UserAccount.Web.csproj", "{057F4344-E545-49BE-A85B-C0DB3FD37A19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WondermazingGameStore.UserAccount.Api", "WondermazingGameStore.UserAccount.Api\WondermazingGameStore.UserAccount.Api.csproj", "{7E1E0075-83FF-4302-B354-D733212680F6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WondermazingGameStore.UserAccount.Domain", "WondermazingGameStore.UserAccount.Domain\WondermazingGameStore.UserAccount.Domain.csproj", "{E0303D46-FEC9-4DB8-B3C9-96432C077DDF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WondermazingGameStore.UserAccount.Context", "WondermazingGameStore.UserAccount.Context\WondermazingGameStore.UserAccount.Context.csproj", "{C28986C9-AEFC-43ED-B8C3-5B3ADEA6CCB6}"
@@ -65,10 +63,6 @@ Global
 		{057F4344-E545-49BE-A85B-C0DB3FD37A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{057F4344-E545-49BE-A85B-C0DB3FD37A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{057F4344-E545-49BE-A85B-C0DB3FD37A19}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7E1E0075-83FF-4302-B354-D733212680F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E1E0075-83FF-4302-B354-D733212680F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E1E0075-83FF-4302-B354-D733212680F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E1E0075-83FF-4302-B354-D733212680F6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E0303D46-FEC9-4DB8-B3C9-96432C077DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E0303D46-FEC9-4DB8-B3C9-96432C077DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0303D46-FEC9-4DB8-B3C9-96432C077DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -95,7 +89,6 @@ Global
 		{04D464E6-C378-4559-94A8-83724ADF05EA} = {D28786D1-63C2-4514-BE4D-A75CC8D556F1}
 		{DA88622B-2C07-4025-8394-C1BEDC5023CE} = {D28786D1-63C2-4514-BE4D-A75CC8D556F1}
 		{057F4344-E545-49BE-A85B-C0DB3FD37A19} = {D16AB1B3-2410-4EB3-9BDC-AA284FB36E8E}
-		{7E1E0075-83FF-4302-B354-D733212680F6} = {011FC8F0-E306-4B15-BB1A-159013813939}
 		{E0303D46-FEC9-4DB8-B3C9-96432C077DDF} = {04D464E6-C378-4559-94A8-83724ADF05EA}
 		{C28986C9-AEFC-43ED-B8C3-5B3ADEA6CCB6} = {DA88622B-2C07-4025-8394-C1BEDC5023CE}
 	EndGlobalSection
