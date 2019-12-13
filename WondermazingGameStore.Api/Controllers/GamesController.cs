@@ -13,7 +13,16 @@ using WondermazingGameStore.Domain;
 
 namespace WondermazingGameStore.Api.Controllers
 {
-    public class GamesController : ApiController
+    public interface IGamesController
+    {
+        IQueryable<Game> GetGames();
+        IHttpActionResult GetGame(Guid id);
+        IHttpActionResult PutGame(Guid id, Game game);
+        IHttpActionResult PostGame(Game game);
+        IHttpActionResult DeleteGame(Guid id);
+    }
+
+    public class GamesController : ApiController, IGamesController
     {
         private DataContext db = new DataContext();
 
